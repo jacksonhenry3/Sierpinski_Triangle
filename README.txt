@@ -1,0 +1,1 @@
+This is a repo of many of my small personal projects with python. Some of them I did in an internship, som of them from a book, most of them for fun.
