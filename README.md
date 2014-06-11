@@ -13,3 +13,10 @@
 <p>
 	The Sierpinski triangle can be though of as a <a href = 'http://mathworld.wolfram.com/BinaryTree.html'>binary tree</a>. You can assign a unique id to each node in a binary tree in a very simple way. To get to a node all you do is start at the base of the tree and go either left or right at each subsequent node encountered. So if we list all the turn taken to get to a node we get a unique string which describes the path to that node. eg left right left left right. Because there is only two choices we call this a binary string, it is common to let 0 mean left and 1 mean right which would make our previous example in to 01001. using this process we address an arbitrarily large number of nodes and construct the Sierpinski triangle.
 </p>
+<hr>
+Writen in python 2.7
+<ul>
+  <li>
+    dependant on <a href = 'http://wiki.scipy.org/PyLab'>pylab</a>
+  </li>
+</ul>
