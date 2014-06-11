@@ -3,6 +3,7 @@
 				<br>
   The <a href = 'http://mathworld.wolfram.com/SierpinskiSieve.html'>Sierpinski Triangle</a> is a relatively simple fractal. And, inspired by <a href = 'http://books.google.com/books/about/Chaos_and_Fractals.html?id=jVpS_u0Lg4gC'>Chaos and Fractals</a> I wrote two programs to procedurally generate it. One is based on addressing each node while the other is based on a chaotic process. If both are carried out an infinite number of times they will generate the same figure.
 				</p>
+				<br>
 				<h3>By Randomness</h3>
 				<p>
 				Start with three points (the three points of the largest triangle) and label them 1, 2 and 3. Then pick another point, anywhere. Role a 3 sided die (or a random number generator), if you role a three place a point 1/2 the distance from your initial point to point number three. Then, repeat that process for the new point. If you do this infinite times you will generate the Sierpinski gasket. Each frame of the .gif is a zoomed in image of the top triangle of the previous frame.
